@@ -1481,20 +1481,21 @@ if(!function_exists('kriesi_backlink'))
 {
 	function kriesi_backlink($frontpage_only = false, $theme_name_passed = false)
 	{	
-		$no = "";
-		$theme_string	= "";
-		$theme_name 	= $theme_name_passed ? $theme_name_passed : THEMENAME;
+		// $no = "";
+		// $theme_string	= "";
+		// $theme_name 	= $theme_name_passed ? $theme_name_passed : THEMENAME;
 		
-		$random_number 	= get_option(THEMENAMECLEAN."_fixed_random");
-		if($random_number % 3 == 0) $theme_string = $theme_name." Theme by Kriesi";
-		if($random_number % 3 == 1) $theme_string = $theme_name." WordPress Theme by Kriesi";
-		if($random_number % 3 == 2) $theme_string = "powered by ".$theme_name." WordPress Theme";
-		if(!empty($frontpage_only) && !is_front_page()) $no = "rel='nofollow'";
+		// $random_number 	= get_option(THEMENAMECLEAN."_fixed_random");
+		// if($random_number % 3 == 0) $theme_string = $theme_name." Theme by Kriesi";
+		// if($random_number % 3 == 1) $theme_string = $theme_name." WordPress Theme by Kriesi";
+		// if($random_number % 3 == 2) $theme_string = "powered by ".$theme_name." WordPress Theme";
+		// if(!empty($frontpage_only) && !is_front_page()) $no = "rel='nofollow'";
 		
-		$link = " - <a {$no} href='https://kriesi.at'>{$theme_string}</a>";
+		// $link = " - <a {$no} href='https://kriesi.at'>{$theme_string}</a>";
 	
-		$link = apply_filters("kriesi_backlink", $link);
-		return $link;
+		// $link = apply_filters("kriesi_backlink", $link);
+		// return $link;
+		return "";
 	}
 }
 
