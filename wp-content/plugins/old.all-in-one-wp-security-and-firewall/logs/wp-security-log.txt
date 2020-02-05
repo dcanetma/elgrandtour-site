@@ -1,0 +1,4 @@
+[08/13/2015 9:53 AM] - SUCCESS : Logging User Out with login admin because they changed their username.
+[08/14/2015 9:04 AM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 92.58.110
+[08/14/2015 9:06 AM] - NOTICE : Login attempt from blocked IP range - 92.58.110.*
+[08/14/2015 9:08 AM] - NOTICE : Login attempt from blocked IP range - 92.58.110.*
