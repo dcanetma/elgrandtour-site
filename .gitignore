@@ -1,0 +1,15 @@
+plesk-stat
+database
+backup
+.DS_Store
+
+wp-content/aiowps_backups/
+wp-content/languages/
+wp-content/uploads/
+wp-content/upgrade/
+
+sandbox
+
+
+dandelion.yml
+wp-config.php
